@@ -16,7 +16,7 @@ def main():
     while True:
 
         print_menu()
-        choice = int(input("\n Ingresa un comando: ").strip().lower())
+        choice = int(input("\n Ingresa un comando: ").strip())
         match choice:
             case 1:
                 title = input("ingresa el título de la tarea: ")
