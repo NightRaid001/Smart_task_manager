@@ -106,7 +106,7 @@ This project uses **Google Gemini AI** to intelligently break down complex tasks
 - **JSON** (Data persistence)
 - **Python unittest/pytest** (Testing)
 
-## 🗓️ Próximas Características (Roadmap)
+## 🗓️ Upcoming Features (Roadmap)
 
 We're constantly working to improve the Smart Task Manager! Here are the features planned for future releases:
 
