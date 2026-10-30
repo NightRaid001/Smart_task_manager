@@ -1,0 +1,39 @@
+
+# Configuración de Dependabot para GitHub.
+# Permite revisar y actualizar automáticamente
+# las dependencias utilizadas en el proyecto.
+
+# Versión del formato de configuración de Dependabot.
+# Actualmente, GitHub utiliza la versión 2.
+version: 2
+
+# Lista de ecosistemas de dependencias que
+# Dependabot debe supervisar.
+updates:
+
+  # Administrador de paquetes que utiliza el proyecto.
+  # "pip" corresponde a las dependencias de Python.
+  # Ejemplos: google-genai, requests, Flask, FastAPI.
+  - package-ecosystem: "pip"
+
+    # Directorio donde Dependabot buscará archivos
+    # de dependencias, como requirements.txt,
+    # pyproject.toml o Pipfile.
+    # "/" indica la raíz del repositorio.
+    directory: "/"
+
+    # Frecuencia con la que Dependabot comprobará
+    # si existen nuevas versiones de los paquetes.
+    schedule:
+
+      # "weekly" significa una vez por semana.
+      # También admite "daily" y "monthly".
+      interval: "weekly"
+
+    # Número máximo de Pull Requests abiertos
+    # simultáneamente para actualizaciones de versión.
+    # Ayuda a evitar demasiadas solicitudes pendientes.
+    # No limita las alertas de seguridad.
+    open-pull-requests-limit: 5
+
+
