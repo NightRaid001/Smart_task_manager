@@ -37,3 +37,16 @@ updates:
     open-pull-requests-limit: 5
 
 
+  # Configuración temporal para diagnosticar Dependabot.
+  - package-ecosystem: "pip"
+    directory: "/"
+    # Analizar únicamente los archivos de esta rama.
+    target-branch: "test/dependabot-detection"
+    schedule:
+      interval: "weekly"
+    # Limitar las solicitudes de actualización en la prueba.
+    open-pull-requests-limit: 2
+  
+  
+
+
