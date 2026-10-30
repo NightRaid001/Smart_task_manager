@@ -37,3 +37,11 @@ updates:
     open-pull-requests-limit: 5
 
 
+
+# PRUEBA TEMPORAL: analizar una rama diferente.
+  - package-ecosystem: "pip"
+    directory: "/"
+    target-branch: "test/dependabot-detection"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 2
