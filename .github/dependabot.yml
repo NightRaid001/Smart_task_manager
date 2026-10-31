@@ -35,13 +35,3 @@ updates:
     # Ayuda a evitar demasiadas solicitudes pendientes.
     # No limita las alertas de seguridad.
     open-pull-requests-limit: 5
-
-
-
-# PRUEBA TEMPORAL: analizar una rama diferente.
-  - package-ecosystem: "pip"
-    directory: "/"
-    target-branch: "test/dependabot-detection"
-    schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 5
