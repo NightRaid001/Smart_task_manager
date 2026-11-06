@@ -11,7 +11,7 @@ cryptography==50.0.0
 deprecation==2.1.0
 distro==1.9.0
 dotenv==0.9.9
-fastapi==0.115.6
+fastapi==0.162.0
 google-ai-generativelanguage==0.6.15
 google-api-core==2.25.2
 google-api-python-client==2.194.0
